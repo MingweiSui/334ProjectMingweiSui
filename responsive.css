@@ -1,0 +1,220 @@
+/*  500 to 960 pixels */  
+@media screen and (min-width: 31.25em) {
+    nav ul li {
+	    width: 33%;
+    }
+    
+    body {
+    font-family: arial;
+    background-image: url('../images/City.png');
+    background-repeat: repeat-y;
+    background-attachment:fixed
+}
+    
+    .wrapper {
+    	max-width: 1500px;
+    	margin: 0 auto;
+    	filter:alpha(Opacity=10);
+    	-moz-opacity:0.5;
+    	opacity: 0.8;
+    	z-index:100;
+    	background-color:#ffffff;
+    }
+    header h1 {
+    	letter-spacing: 0.1em;
+    	font-size: 300%;
+    	text-align: right;
+    	padding-top: 0.5em;
+    	padding-right: 0.5em;
+    }
+    header h2 {
+    	letter-spacing: 0.1em;
+    	font-size: 150%;
+    	text-align: right;
+    	padding-bottom: 1em;
+    	padding-right: 5em;
+    }
+
+    .HRB_Logo {
+      float:left;
+      margin: 10px 0px 0px 50px;
+      height: 150px;
+      border-radius: 50%;
+    }
+    .menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.footer{
+    text-align: center;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+li a {
+    letter-spacing: 0.1em;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #A0A0A0;
+}
+.active {
+    background-color: #4CAF50;
+}
+
+#myBtn {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  z-index: 1000;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+.block{
+        width: 300%;
+        display: block;
+        margin:5px 0;
+    }
+.center{
+        text-align: center;
+}
+label {
+        display: inline-block;
+        width: 100px;
+        text-align: right;
+}
+input,textarea{
+        vertical-align: top;
+}
+}
+
+/*  under 500 px  */
+@media screen and (max-width: 31.25em ) {
+    nav ul li {
+	    width: 33%;
+    }
+    
+    body {
+    font-family: arial;
+    background-image: url('../images/City.png');
+    background-repeat: repeat-y;
+    background-attachment:fixed
+}
+    
+    .wrapper {
+    	max-width: 1500px;
+    	margin: 0 auto;
+    	filter:alpha(Opacity=10);
+    	-moz-opacity:0.5;
+    	opacity: 0.8;
+    	z-index:100;
+    	background-color:#ffffff;
+    }
+    header h1 {
+    	letter-spacing: 0.2em;
+    	font-size: 230%;
+    	text-align: right;
+    	padding-top: 0.1em;
+    	padding-right: 1em;
+    }
+    header h2 {
+    	letter-spacing: 0.1em;
+    	font-size: 120%;
+    	text-align: right;
+    	padding-bottom: 0.5em;
+    	padding-right: 1em;
+    }
+
+    .HRB_Logo {
+      float:left;
+      margin: 30px 0px 0px 30px;
+      height: 100px;
+      border-radius: 50%;
+    }
+    .menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.footer{
+    text-align: center;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+li a {
+    letter-spacing: 0em;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 6px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #A0A0A0;
+}
+.active {
+    background-color: #4CAF50;
+}
+
+#myBtn {
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+  z-index: 1000;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+.block{
+        width: 300%;
+        display: block;
+        margin:5px 0;
+    }
+.center{
+        text-align: center;
+}
+label {
+        display: inline-block;
+        width: 100px;
+        text-align: right;
+}
+input,textarea{
+        vertical-align: top;
+}
+
+}
